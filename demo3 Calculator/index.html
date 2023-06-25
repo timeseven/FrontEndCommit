@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link ref="stylesheet" type="text/css" href="./calculator.css">
+    <title>Calculator</title>
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        .calContainer {
+            width: 400px;
+            background-color: black;
+            color:white;
+        } 
+        .calScreen{
+            color:white;
+            font-size:40px;
+            font-family:'Courier New', Courier, monospace;
+            text-align: right;
+            padding: 20px 5px;
+        }
+        .calButtonRow{
+            display:flex;
+            justify-content: space-between;
+            margin-bottom:.5%;
+        }
+        .calButton{
+            background-color: #d8d9db;
+            color:black;
+            height:100px;
+            width: 24.5%;
+            border: none;
+            border-radius: 0;
+            font-size: 40px;
+            cursor: pointer;
+        }
+        .calButton:hover{
+            background-color:#ebebeb;
+        }
+        .calButton:last-child{
+            background-color: #df974c;
+            color:white;
+        }
+        .calButton:last-child:hover{
+            background-color: #dfb07e;
+        }
+        .double{
+            width: 49.7%;
+        }
+        .trible{
+            width: 74.8%;
+        }
+    </style>
+</head>
+<body>
+    <div class="calContainer">
+        <section class="calScreen">12345</section>
+        <section class="calButtons">
+            <div class="calButtonRow">
+                <button class="calButton double">C</button>
+                <button class="calButton">←</button>
+                <button class="calButton">÷</button>
+            </div>
+            <div class="calButtonRow">
+                <button class="calButton">7</button>
+                <button class="calButton">8</button>
+                <button class="calButton">9</button>
+                <button class="calButton">×</button>
+            </div>
+            <div class="calButtonRow">
+                <button class="calButton">4</button>
+                <button class="calButton">5</button>
+                <button class="calButton">6</button>
+                <button class="calButton">-</button>
+            </div>
+            <div class="calButtonRow">
+                <button class="calButton">1</button>
+                <button class="calButton">2</button>
+                <button class="calButton">3</button>
+                <button class="calButton">+</button>
+            </div>
+            <div class="calButtonRow">
+                <button class="calButton trible">0</button>
+                <button class="calButton">=</button>
+            </div>
+        </section>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>
