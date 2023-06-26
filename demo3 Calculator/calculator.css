@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+.calContainer {
+    width: 400px;
+    background-color: black;
+    color:white;
+} 
+.calScreen{
+    color:white;
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+.calButtonRow{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:.5%;
+}
+.calButton{
+    background-color: #d8d9db;
+    color:black;
+    height:100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+}
+.calButton:hover{
+    background-color:#ebebeb;
+}
+.calButton:last-child{
+    background-color: #df974c;
+    color:white;
+}
+.calButton:last-child:hover{
+    background-color: #dfb07e;
+}
+.double{
+    width: 49.7%;
+}
+.trible{
+    width: 74.8%;
+}
