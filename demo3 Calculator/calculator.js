@@ -92,14 +92,12 @@ function handleButton(value) {
 }
 
 function init() {
-  document
-    .querySelector(".calButtons")
-    .addEventListener("click", function (event) {
-      // add eventlistener for clicking
-      if (event.target.localName === "button") {
-        handleButton(event.target.innerText);
-      }
-    });
+  document.querySelector(".calButtons").addEventListener("click", function (event) {
+    // add eventlistener for clicking
+    if (event.target.localName === "button") {
+      handleButton(event.target.innerText);
+    }
+  });
 }
 
 init();
