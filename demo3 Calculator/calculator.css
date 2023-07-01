@@ -1,46 +1,46 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .calContainer {
-    width: 400px;
-    background-color: black;
-    color:white;
-} 
-.calScreen{
-    color:white;
-    font-size:40px;
-    font-family:'Courier New', Courier, monospace;
-    text-align: right;
-    padding: 20px 5px;
+  width: 400px;
+  background-color: black;
+  color: white;
 }
-.calButtonRow{
-    display:flex;
-    justify-content: space-between;
-    margin-bottom:.5%;
+.calScreen {
+  color: white;
+  font-size: 40px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  padding: 20px 5px;
 }
-.calButton{
-    background-color: #d8d9db;
-    color:black;
-    height:100px;
-    width: 24.5%;
-    border: none;
-    border-radius: 0;
-    font-size: 40px;
-    cursor: pointer;
+.calButtonRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5%;
 }
-.calButton:hover{
-    background-color:#ebebeb;
+.calButton {
+  background-color: #d8d9db;
+  color: black;
+  height: 100px;
+  width: 24.5%;
+  border: none;
+  border-radius: 0;
+  font-size: 40px;
+  cursor: pointer;
 }
-.calButton:last-child{
-    background-color: #df974c;
-    color:white;
+.calButton:hover {
+  background-color: #ebebeb;
 }
-.calButton:last-child:hover{
-    background-color: #dfb07e;
+.calButton:last-child {
+  background-color: #df974c;
+  color: white;
 }
-.double{
-    width: 49.7%;
+.calButton:last-child:hover {
+  background-color: #dfb07e;
 }
-.trible{
-    width: 74.8%;
+.double {
+  width: 49.7%;
+}
+.trible {
+  width: 74.8%;
 }

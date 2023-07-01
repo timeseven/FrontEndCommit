@@ -1,5 +1,5 @@
 const goTo = () => {
-    console.log('kkkkk')
-}
+  console.log("kkkkk");
+};
 
 goTo();
